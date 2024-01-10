@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Abyss</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .sub-header{
+            background-image: linear-gradient(rgba(11, 19, 52, 0.7),rgba(3, 6, 19, 0.7)),url(../img/bg.jpg);
+        }
+    </style>
+</head>
+<body>
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html" class="logo"><span class="span">Arcade </span>Abyss</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="toggleMenu()"></i>
+            <ul>
+                <li><a href="../index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="./GamingStory.html" onclick="toggleMenu()">Gaming Story</a></li>
+                <li><a href="./SkillQuests.html" onclick="toggleMenu()">Skill Quests</a></li>
+                <li><a href="./Gamerlore.html" onclick="toggleMenu()">GamerLore</a></li>
+                <li><a href="./PlayerSupport.html" onclick="toggleMenu()">Player Support</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+    </nav>
+    <h1><span class="span">Gamer </span>Lore</h1>
+</section>
+
+
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img decoding="async" src="../img/gamerlore.jpg">
+            <h2>Welcome to <span class="span">Gamer Lore</span>: Unveiling the Chronicles of Play</h2>
+            <p>Embark on a journey into the heart of gaming with our exclusive Gamer Lore – a tapestry woven from the pixels of countless adventures, strategies, and triumphs. Immerse yourself in the rich narratives that echo through the digital realms, where each gamer contributes a unique chapter to our collective story. From industry insights to player sagas, Gamer Lore is the chronicle that celebrates the diverse and ever-evolving culture of gaming. Join us as we unravel the epic tales that make every gaming moment legendary. Your adventure begins here, where Gamer Lore comes to life.</p>
+
+
+            <div class="comment-box">
+                <h3>Drop a <span class="span">comment</span> </h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hi-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Game Statistics</h3>
+            <div>
+                <span class="span">Game</span>
+                <span class="span">Average Rating</span>
+            </div>
+            <div>
+                <span> <span class="span">Call</span>  of Duty</span>
+                <span>4.5</span>
+            </div>
+            <div>
+                <span><span class="span">Apex</span> Legends</span>
+                <span>4.3</span>
+            </div>
+            <div>
+                <span><span class="span">Frotnite</span> </span>
+                <span>4.7</span>
+            </div>
+            <div>
+                <span><span class="span">Mobile</span>  Legends</span>
+                <span>4.7</span>
+            </div>
+            <div>
+                <span><span class="span">Farl</span> ight</span>
+                <span>4.2</span>
+            </div>
+            <div>
+                <span><span class="span">Rob</span> lox</span>
+                <span>4.8</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

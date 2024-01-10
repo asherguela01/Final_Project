@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Abyss</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .sub-header{
+            background-image: linear-gradient(rgba(11, 19, 52, 0.7),rgba(3, 6, 19, 0.7)),url(../img/bg.jpg);
+        }
+    </style>
+</head>
+<body>
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html" class="logo"><span class="span">Arcade </span>Abyss</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="toggleMenu()"></i>
+            <ul>
+                <li><a href="../index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="./GamingStory.html" onclick="toggleMenu()">Gaming Story</a></li>
+                <li><a href="./SkillQuests.html" onclick="toggleMenu()">Skill Quests</a></li>
+                <li><a href="./Gamerlore.html" onclick="toggleMenu()">GamerLore</a></li>
+                <li><a href="./PlayerSupport.html" onclick="toggleMenu()">Player Support</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+    </nav>
+    <h1><span class="span">Skill </span>Quests</h1>
+</section>
+
+
+<section class="game">
+    <h1><span class="span">Proficiency</span> </h1>
+    <p>Engage in intense, strategic battles where skill and teamwork determine victory in this adrenaline-fueled combat experience</p>
+    <div class="row">
+        <div class="game-col">
+            <h3 class="span">Novice</h3>
+            <p>Embark on your gaming journey as a Novice, exploring the basics and laying the foundation for exciting adventures in the gaming world.</p>
+        </div>
+        <div class="game-col">
+            <h3 class="span">Advanced</h3>
+            <p>Level up your skills to Advanced status, where strategic gameplay and refined techniques await, propelling you into the heart of challenging gaming experiences</p>
+        </div>
+        <div class="game-col">
+            <h3 class="span">Expert</h3>
+            <p>Attain Expert status and dominate the gaming realm with masterful precision, showcasing your prowess in complex strategies and achieving unparalleled success in every virtual quest</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="game">
+    <h1>Our <span class="span">Games</span></h1>
+    <p>Dive into an exhilarating gaming experience, where immersive graphics and engaging gameplay combine to transport you to a world of endless excitement and challenge</p>
+
+    <div class="row">
+        <div class="game-col">
+            <img decoding="async" class="uni" src="../img/fortnite.png">
+            <div class="layer">
+                <h3>Fortnite</h3>
+            </div>
+        </div>
+        <div class="game-col">
+            <img decoding="async" class="uni" src="../img/apex.png">
+            <div class="layer">
+                <h3>Apex Legends</h3>
+            </div>
+        </div>
+        <div class="game-col">
+            <img decoding="async" class="uni" src="../img/cod.png">
+            <div class="layer">
+                <h3>Call of Duty</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="../js/main.js"></script>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Abyss</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .sub-header{
+            background-image: linear-gradient(rgba(11, 19, 52, 0.7),rgba(3, 6, 19, 0.7)),url(../img/bg.jpg);
+        }
+    </style>
+</head>
+<body>
+
+<section class="sub-header">
+    <nav>
+        <a href="index.html" class="logo"><span class="span">Arcade </span>Abyss</a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="toggleMenu()"></i>
+            <ul>
+                <li><a href="../index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="./GamingStory.html" onclick="toggleMenu()">Gaming Story</a></li>
+                <li><a href="./SkillQuests.html" onclick="toggleMenu()">Skill Quests</a></li>
+                <li><a href="./Gamerlore.html" onclick="toggleMenu()">GamerLore</a></li>
+                <li><a href="./PlayerSupport.html" onclick="toggleMenu()">Player Support</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="toggleMenu()"></i>
+    </nav>
+    <h1><span class="span">Player</span> Support</h1>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Brgy. <span class="span">Arcade</span> Abyss </h5>
+                    <p>Realm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+63 912 345 6789</h5>
+                    <p>Commlink</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>arcadeabyss@gmail.com</h5>
+                    <p>Inquiry Hub</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Game" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hi-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
